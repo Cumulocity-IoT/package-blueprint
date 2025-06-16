@@ -1,5 +1,5 @@
 import type { ConfigurationOptions } from '@c8y/devkit';
-import { author, description, version, name } from './package.json';
+import { author, description, version, name, license } from './package.json';
 
 export default {
   runTime: {
@@ -9,6 +9,7 @@ export default {
     name,
     dynamicOptionsUrl: true,
     isPackage: true,
+    license,
     package: 'blueprint'
   },
   buildTime: {
