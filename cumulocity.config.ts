@@ -10,7 +10,13 @@ export default {
     dynamicOptionsUrl: true,
     isPackage: true,
     license,
-    package: 'blueprint'
+    package: 'blueprint',
+    // These values are used as default values during blueprint deployment
+    blueprintDeploymentOptions: {
+      name: 'Cumulocity Blueprint Sample Application',
+      contextPath: 'cumulocity-blueprint-sample-app',
+      key: 'cumulocity-blueprint-sample-app-key'
+    }
   },
   buildTime: {
     federation: [
