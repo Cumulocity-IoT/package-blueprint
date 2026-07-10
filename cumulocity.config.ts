@@ -15,8 +15,8 @@ export default {
     blueprintDeploymentOptions: {
       name: 'Cumulocity Blueprint Sample Application',
       contextPath: 'cumulocity-blueprint-sample-app',
-      key: 'cumulocity-blueprint-sample-app-key'
-    }
+      key: 'cumulocity-blueprint-sample-app-key',
+    },
   },
   buildTime: {
     federation: [
@@ -34,7 +34,7 @@ export default {
       '@c8y/ngx-components',
       'ngx-bootstrap',
       '@ngx-translate/core',
-      '@ngx-formly/core'
-    ]
-  }
+      '@ngx-formly/core',
+    ],
+  },
 } as const satisfies ConfigurationOptions;
